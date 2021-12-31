@@ -1,63 +1,76 @@
-Month Finished,Title,Author,Author Gender,Genre (top from goodreads),Year Published,Pages,Medium,Source,Book Club,Favorite,Spine Color
-January,Behold the Dreamers,Imbolo Mbue,Female,Fiction,2017,400,Book,Purchased,,,#000000
-January,The Art of Gathering,Priya Parker,Female,Nonfiction,2018,320,Book,Library,,,#FFFFFF
-January,All Along You Were Blooming,Morgan Harper Nichols,Female,Poetry,2020,192,Book,Purchased,,Yes,#FDCCAC
-January,After the Rain,Alexandra Elle,Female,Memoir,2020,208,Book,Purchased,,,#FBEFDF
-February,The Health Catalyst,Avanti Kumar-Singh,Female,Nonfiction,2020,156,Book,Purchased,,,#FFFFFF
-February,Mexican Gothic,Silvia Moreno-Garcia,Female,Horror,2020,301,Book,Library,,Yes,#6F813F
-February,The Person You Mean to Be,Dolly Chugh,Female,Nonfiction,2018,325,Book,Library,,,#E33C34
-February,Heart Talk,Cleo Wade,Female,Poetry,2018,224,Book,Purchased,,Yes,#FFFFFF
-March,Stamped from the Beginning,Ibram X. Kendi,Male,Nonfiction,2016,529,Book,Purchased,,,#781502
-March,The Book Woman of Troublesome Creek,Kim Michele Richardson,Female,Historical Fiction,2019,309,Book,Borrowed,,,#006CB7
-March,Big Friendship,Aminatou Sow and Ann Friedman,Female,Nonfiction,2020,256,Book,Library,Brunch Babes Reads,,#DF9345
-March,Hidden Valley Road,Robert Kolker,Male,Nonfiction,2020,400,Book,Library,Brunch Babes Reads,,#5B2232
-March,Data Visualization,Kieran Healy,Male,Nonfiction,2018,272,Book,Purchased,,,#FFFFFF
-April,The Truthful Art,Alberto Cairo,Male,Design,2016,400,Book,Purchased,,Yes,#FFFFFF
-April,Parable of the Sower,Octavia E. Butler,Female,Science Fiction,1993,345,Book,Library,,Yes,#F8C23C
-April,Clap When You Land,Elizabeth Acevedo,Female,Young Adult,2020,432,Audiobook,Library,,Yes,#FEA98E
-April,With the Fire on High,Elizabeth Acevedo,Female,Young Adult,2019,400,Audiobook,Library,,,#C9424F
-April,The Night Watchman,Louise Erorich,Female,Historical Fiction,2020,464,Audiobook,Library,,,#84DE87
+Month Finished,Title,Author,Author Gender,Genre,Year Published,Pages,Medium,Source,Book Club,Favorite,Spine Color
+January,Behold the Dreamers,Imbolo Mbue,Female,Fiction,2017,400,Book,Purchased,None,No,#000000
+January,The Art of Gathering,Priya Parker,Female,Nonfiction,2018,320,Book,Library,None,No,#FFFFFF
+January,All Along You Were Blooming,Morgan Harper Nichols,Female,Poetry,2020,192,Book,Purchased,None,Yes,#FDCCAC
+January,After the Rain,Alexandra Elle,Female,Memoir,2020,208,Book,Purchased,None,No,#FBEFDF
+February,The Health Catalyst,Avanti Kumar-Singh,Female,Nonfiction,2020,156,Book,Purchased,None,No,#FFFFFF
+February,Mexican Gothic,Silvia Moreno-Garcia,Female,Horror,2020,301,Book,Library,None,Yes,#6F813F
+February,The Person You Mean to Be,Dolly Chugh,Female,Nonfiction,2018,325,Book,Library,None,No,#E33C34
+February,Heart Talk,Cleo Wade,Female,Poetry,2018,224,Book,Purchased,None,Yes,#FFFFFF
+March,The Book Woman of Troublesome Creek,Kim Michele Richardson,Female,Historical Fiction,2019,309,Book,Borrowed,None,No,#006CB7
+March,Big Friendship,Aminatou Sow and Ann Friedman,Female,Nonfiction,2020,256,Book,Library,Brunch Babes Reads,No,#DF9345
+March,Hidden Valley Road,Robert Kolker,Male,Nonfiction,2020,400,Book,Library,Brunch Babes Reads,No,#5B2232
+March,Data Visualization,Kieran Healy,Male,Nonfiction,2018,272,Book,Purchased,None,No,#FFFFFF
+April,The Truthful Art,Alberto Cairo,Male,Nonfiction,2016,400,Book,Purchased,None,Yes,#FFFFFF
+April,Parable of the Sower,Octavia E. Butler,Female,Science Fiction,1993,345,Book,Library,None,Yes,#F8C23C
+April,Clap When You Land,Elizabeth Acevedo,Female,Young Adult,2020,432,Audiobook,Library,None,Yes,#FEA98E
+April,With the Fire on High,Elizabeth Acevedo,Female,Young Adult,2019,400,Audiobook,Library,None,No,#C9424F
+April,The Night Watchman,Louise Erorich,Female,Historical Fiction,2020,464,Audiobook,Library,None,No,#84DE87
 April,Caste,Isabel Wilkerson,Female,Nonfiction,2020,496,Book,Purchased,Brunch Babes Reads,,#505961
-May,The Near Witch,Victoria Schwab,Female,Fantasy,2011,284,Book,Library,,Yes,#FFFFFF
-May,The Ninth House,Leigh Bardugo,Female,Fantasy,2019,476,Book,Library,,,#000000
-May,Ready Player One,Ernest Cline,Male,Science Fiction,2011,374,Audiobook,Library,,,#FFFFFF
-May,Land of the Fee,Devin Fergus,Male,Nonfiction,2018,264,Book,Purchased,,,#FFFFFF
-May,Set Boundaries Find Peace,Nedra Glover Tawwab,Female,Nonfiction,2021,282,Book,Purchased,,,#F47566
-May,Ties that Tether,Jane Igharo,Female,Romance,2020,306,Audiobook,Library,,Yes,#000000
-May,The Body is Not An Apology,Sonya Renee Taylor,Female,Nonfiction,2018,137,Book,Purchased,Brunch Babes Reads,Yes,#391D84
-June,The Last Year of the War,Susan Meissner,Female,Historical Fiction,2019,389,Book,Borrowed,,,#99C1C9
-June,The Lost Girls of Paris,Pam Jenoff,Female,Historical Fiction,2019,384,Book,Borrowed,,,#071B24
+May,The Near Witch,Victoria Schwab,Female,Fantasy,2011,284,Book,Library,None,Yes,#FFFFFF
+May,The Ninth House,Leigh Bardugo,Female,Fantasy,2019,476,Book,Library,None,No,#000000
+May,Ready Player One,Ernest Cline,Male,Science Fiction,2011,374,Audiobook,Library,None,No,#FFFFFF
+May,Land of the Fee,Devin Fergus,Male,Nonfiction,2018,264,Book,Purchased,None,No,#FFFFFF
+May,Set Boundaries Find Peace,Nedra Glover Tawwab,Female,Nonfiction,2021,282,Book,Purchased,None,No,#F47566
+May,Ties that Tether,Jane Igharo,Female,Romance,2020,306,Audiobook,Library,None,Yes,#000000
+May,The Body Is Not An Apology,Sonya Renee Taylor,Female,Nonfiction,2018,137,Book,Purchased,Brunch Babes Reads,Yes,#391D84
+June,The Last Year of the War,Susan Meissner,Female,Historical Fiction,2019,389,Book,Borrowed,None,No,#99C1C9
+June,The Lost Girls of Paris,Pam Jenoff,Female,Historical Fiction,2019,384,Book,Borrowed,None,No,#071B24
 June,Legendborn,Tracy Deonn,Female,Fantasy,2020,501,Book,Library,Brunch Babes Reads,Yes,#000000
-June,Such a Fun Age,Kiley Reid,Female,Nonfiction,2019,310,Book,Borrowed,,,#2383FC
-June,Hood Feminism,Mikki Kendall,Female,Nonfiction,2020,288,Book,Purchased,,,#C15D12
-July,Transcendent Kingdom,Yaa Gyasi,Female,Fiction,2020,263,Book,Library,,Yes,#ECD8D1
-July,I Am Not your Perfect Mexican Daughter,Erika L. Sanchez,Female,Young Adult,2017,344,Book,Library,,,#285C71
-July,Emergency Contact,Mary H.K. Choi,Female,Romance,2018,394,Book,Library,,Yes,#EEEBF4
-July,Talking to Strangers,Malcom Gladwell,Male,Nonfiction,2019,388,Audiobook,Library,,,#FFFFFF
-July,Yolk,Mary H.K. Choi,Female,Contemporary,2021,400,Book,Purchased,Brunch Babes Reads,Yes,#000000
-July,The Last Thing He Told Me,Laura Dave,Female,Mystery,2021,320,Book,Borrowed,,Yes,#F0B91E
-August,Somebody's Daughter,Ashley C. Ford,Female,Memoir,2021,224,Book,Purchased,Literati,,#121F91
-August,Effortless,Greg McKeown,Male,Nonfiction,2021,272,Audiobook,Library,,Yes,#FFFFFF
-August,Parable of the Talents,Octavia E. Butler,Female,Science Fiction,1998,448,Book,Library,,,#F06B5A
-August,Vibrate Higher Daily,Lalah Delia,Female,Self Help,2019,240,Book,Purchased,,,#F7D7C8
+June,Such a Fun Age,Kiley Reid,Female,Nonfiction,2019,310,Book,Borrowed,None,No,#2383FC
+June,Hood Feminism,Mikki Kendall,Female,Nonfiction,2020,288,Book,Purchased,None,No,#C15D12
+July,Transcendent Kingdom,Yaa Gyasi,Female,Fiction,2020,263,Book,Library,None,Yes,#ECD8D1
+July,I Am Not your Perfect Mexican Daughter,Erika L. Sanchez,Female,Young Adult,2017,344,Book,Library,None,No,#285C71
+July,Emergency Contact,Mary H.K. Choi,Female,Romance,2018,394,Book,Library,None,Yes,#EEEBF4
+July,Talking to Strangers,Malcom Gladwell,Male,Nonfiction,2019,388,Audiobook,Library,None,No,#FFFFFF
+July,Yolk,Mary H.K. Choi,Female,Fiction,2021,400,Book,Purchased,Brunch Babes Reads,Yes,#000000
+July,The Last Thing He Told Me,Laura Dave,Female,Mystery,2021,320,Book,Borrowed,None,Yes,#F0B91E
+August,Somebody's Daughter,Ashley C. Ford,Female,Memoir,2021,224,Book,Purchased,Literati,No,#121F91
+August,Effortless,Greg McKeown,Male,Nonfiction,2021,272,Audiobook,Library,None,Yes,#FFFFFF
+August,Parable of the Talents,Octavia E. Butler,Female,Science Fiction,1998,448,Book,Library,None,No,#F06B5A
+August,Vibrate Higher Daily,Lalah Delia,Female,Self Help,2019,240,Book,Purchased,None,No,#F7D7C8
 August,The Guncle,Steven Rowley,Male,Fiction,2021,326,Book,Purchased,Brunch Babes Reads,Yes,#FDE63E
-August,W.E.B. Du Bois's Data Portraits: Visualizing Black America,Whitney Battle-Baptiste and Britt Rusert,Female,History,2018,144,Book,Gift,,,#000000
-September,Untamed,Glennon Doyle,Female,Nonfiction,2020,333,Book,Library,,Yes,#353372
-September,The Big Kahuna,Janet Evanovich,Female,Mystery,2019,320,Audiobook,Library,,,#0180D2
-September,Lily and the Octopus,Steven Rowley,Male,Fiction,2016,307,Book,Library,,,#65B5B2
-September,Fortune and Glory,Janet Evanovich,Female,Mystery,2020,315,Audiobook,Library,,,#0F1957
-September,Pregnant Girl,Nicole Lynn Lewis,Female,Nonfiction,2021,224,Book,Purchased,Literati,,#E9662E
+August,W.E.B. Du Bois's Data Portraits: Visualizing Black America,Whitney Battle-Baptiste and Britt Rusert,Female,Nonfiction,2018,144,Book,Gift,None,No,#000000
+September,Untamed,Glennon Doyle,Female,Nonfiction,2020,333,Book,Library,None,Yes,#353372
+September,The Big Kahuna,Janet Evanovich,Female,Mystery,2019,320,Audiobook,Library,None,No,#0180D2
+September,Lily and the Octopus,Steven Rowley,Male,Fiction,2016,307,Book,Library,None,No,#65B5B2
+September,Fortune and Glory,Janet Evanovich,Female,Mystery,2020,315,Audiobook,Library,None,No,#0F1957
+September,Pregnant Girl,Nicole Lynn Lewis,Female,Memoir,2021,224,Book,Purchased,Literati,No,#E9662E
 October,The Heart Principle,Helen Hoang,Female,Romance,2021,339,Book,Purchased,Literati,Yes,#D63B63
-October,The Editor,Steven Rowley,Male,Fiction,2019,320,Book,Library,,,#3481B9
-October,A Woman is No Man,Etaf Rum,Female,Fiction,2019,339,Book,Library,,Yes,#49A4B6
-October,Better Luck Next Time,Julia Claiborne Johnson,Female,Historical Fiction,2021,274,Book,Library,,,#9F9F9F
-October,A Star Is Bored,Byron Lane,Male,Fiction,2020,343,Book,Library,,,#FFFFFF
-October,Swimming Lessons,Claire Fuller,Female,Fiction,2017,350,Book,Purchased,,,#3E6272
-October,A Girl is a Body of Water,Jennifer Nansubuga Makumbi,Female,Fiction,2020,560,Book,Purchased,,,#076567
-October,The Vanishing Half,Brit Bennett,Female,Fiction,2020,343,Book,Borrowed,,,#F0B8D5
-October,The Invisible Life of Addie LaRue,V.E. Schwab,Female,Fantasy,2020,442,Book,Borrowed,,,#000000
-October,The Final Girl Support Group,Grady Hendrix,Male,Horror,2021,352,Book,Purchased,Brunch Babes Reads,,#000000
-October,The Wall Street Journal Guide to Information Graphics,Dona M. Wong,Female,Design,2010,162,Book,Purchased,,,#FFFFFF
-November,The Big Picture,Steve Wexler,Male,Business,2021,272,Book,Gift,,,#FFFFFF
-November,All About Love,bell hooks,Female,Nonfiction,1999,240,Book,Purchased,,Yes,#EB0029
-November,"Act Your Age, Eve Brown",Talia Hibbert,Female,Romance,2021,400,Book,Library,,Yes,#5AB2BE
+October,The Editor,Steven Rowley,Male,Fiction,2019,320,Book,Library,None,No,#3481B9
+October,A Woman is No Man,Etaf Rum,Female,Fiction,2019,339,Book,Library,None,Yes,#49A4B6
+October,Better Luck Next Time,Julia Claiborne Johnson,Female,Historical Fiction,2021,274,Book,Library,None,No,#9F9F9F
+October,A Star Is Bored,Byron Lane,Male,Fiction,2020,343,Book,Library,None,No,#FFFFFF
+October,Swimming Lessons,Claire Fuller,Female,Fiction,2017,350,Book,Purchased,None,No,#3E6272
+October,A Girl is a Body of Water,Jennifer Nansubuga Makumbi,Female,Fiction,2020,560,Book,Purchased,None,No,#076567
+October,The Vanishing Half,Brit Bennett,Female,Fiction,2020,343,Book,Borrowed,None,No,#F0B8D5
+October,The Invisible Life of Addie LaRue,V.E. Schwab,Female,Fantasy,2020,442,Book,Borrowed,None,No,#000000
+October,The Final Girl Support Group,Grady Hendrix,Male,Horror,2021,352,Book,Purchased,Brunch Babes Reads,No,#000000
+October,The Wall Street Journal Guide to Information Graphics,Dona M. Wong,Female,Nonfiction,2010,162,Book,Purchased,None,No,#FFFFFF
+November,The Big Picture,Steve Wexler,Male,Nonfiction,2021,272,Book,Gift,None,No,#FFFFFF
+November,All About Love,bell hooks,Female,Nonfiction,1999,240,Book,Purchased,None,Yes,#EB0029
+November,"Act Your Age, Eve Brown",Talia Hibbert,Female,Romance,2021,400,Book,Library,None,Yes,#5AB2BE
+November,Hunted by The Sky,Tanaz Bhathena,Female,Fantasy,2020,384,Book,Library,Brunch Babes Reads,No,#00ACE0
+November,Sometimes I Trip On How Happy We Could Be,Nichole Perkins,Female,Nonfiction,2021,272,Book,Purchased,Literati,Yes,#98526A
+November,Rising Like a Storm,Tanaz Bhathena,Female,Fantasy,2021,432,Book,Library,Brunch Babes Reads,No,#E11201
+November,Beautiful Country,Qian Julie Wang,Female,Memoir,2021,329,Book,Borrowed,None,Yes,#37519E
+December,Minor Feelings,Cathy Park Hong,Female,Nonfiction,2020,209,Book,Purchased,None,No,#E5D6C3
+December,Everyone in This Room Will Someday Be Dead,Emily Austin,Female,Fiction,2021,256,Book,Library,None,No,#E9EAE2
+December,Unfinished Business,J.A. Jance,Female,Mystery,2021,352,Book,Library,None,No,#7BEFCC
+December,Afterparties,Anthony Veasna So,Male,Fiction,2021,272,Book,Purchased,Literati,Yes,#D78C00
+December,The Paper Palace,Miranda Cowley Heller,Female,Fiction,2021,400,Book,Library,None,No,#8BA14B
+December,"Duke, Actually",Jenny Holiday,Female,Romance,2021,384,Book,Gift,None,No,#154985
+December,The Holiday Swap,Maggie Knox,Female,Romance,2021,351,Book,Gift,None,No,#63B5ED
+December,Klara and the Sun,Kazuo Ishiguro,Male,Fiction,2021,303,Book,Library,None,No,#FF524B
+December,Long Division,Kiese Laymon,Male,Fiction,2013,276,Book,Purchased,None,Yes,#000000
+December,Carry,Toni Jensen,Female,Memoir,2020,304,Book,Purchased,None,Yes,#FBF1E7
