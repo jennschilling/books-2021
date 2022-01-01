@@ -168,7 +168,8 @@ book_stack <- ggplot(data = books_edit,
         axis.ticks = element_blank(),
         axis.text.y = element_blank(),
         axis.title = element_blank(),
-        plot.margin = margin(t = 20, r = 20, b = 20, l = 20))
+        plot.margin = margin(t = 20, r = 20, b = 20, l = 20),
+        axis.text = element_text(size = 16, color = font_color))
 
 # Genre Bar + Legend
 legend_bar <- ggplot(data = books_edit,
@@ -177,7 +178,7 @@ legend_bar <- ggplot(data = books_edit,
   geom_bar() +
   geom_bar_text(contrast = TRUE,
                 stat = "count", 
-                aes(label = ..count..),
+                mapping = aes(label = ..count..),
                 family = font) +
   scale_fill_manual(values = genre_pal) +
   coord_cartesian(expand = FALSE,
@@ -193,18 +194,23 @@ legend_bar <- ggplot(data = books_edit,
 
 # Year published
 year_bar <- ggplot(data = books_edit,
-       mapping = aes(x = factor(year_published))) +
+       mapping = aes(x = factor(year_published),
+                     fill = genre)) +
   geom_bar() +
-  geom_text(stat = "count", 
-            aes(label = ..count..),
+  geom_text(data = books_edit %>% count(year_published),
+            mapping = aes(x = factor(year_published),
+                          y = n,
+                          label = n,
+                          fill = NA),
             family = font,
             color = font_color,
             vjust = -0.5) +
-  scale_fill_manual(values = genre_pal) +
   labs(title = "I mostly read books published in the last few years.") +
   scale_y_continuous(limits = c(0, 25)) +
+  scale_fill_manual(values = genre_pal) +
   coord_cartesian(expand = FALSE,
                   clip = "off") +
+  guides(fill = "none") +
   theme(axis.line = element_blank(),
         axis.ticks = element_blank(),
         axis.text.y = element_blank(),
@@ -225,14 +231,16 @@ symbol_legend <- ggplot(data = symbol_legend_data,
             family = font,
             color = font_color) +
   scale_x_continuous(limits = c(0, 2.75)) +
-  scale_y_continuous(limits = c(-1, 1)) +
+  scale_y_continuous(limits = c(-0.5, 1)) +
   coord_cartesian(clip = "off",
                   expand = FALSE) +
+  labs(title = "<i>How to read the book symbols:</i><br>") +
   theme(axis.line = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
         axis.title = element_blank(),
-        plot.margin = margin(t = 20, r = 100, b = 20, l = 20))
+        plot.margin = margin(t = 20, r = 100, b = 20, l = 20),
+        plot.title = element_markdown(size = 16, color = font_color, family = font))
 
 # Put it together
 
@@ -246,8 +254,8 @@ book_stack +  right_side +
   plot_layout(ncol = 2,
               widths = c(3, 1)) +
   plot_annotation(title = "<b>A Year of Reading</b>",
-                  subtitle = "In 2021, I read 75 books and 24,417 total pages. 79% of the books I read were written by female authors.<br>
-                  Each book I read is stacked based on the month I read it. The height denotes the number of pages.",
+                  subtitle = "In 2021, I read 75 books totalling 24,417 pages. 79% were written by female authors.<br>
+                  Each book's height in the stack represents its length.",
                   caption = "<b>Data & Design:</b> Jenn Schilling")
 
 # Save
