@@ -136,13 +136,13 @@ book_stack <- ggplot(data = books_edit,
             nudge_y = 16,
             nudge_x = 0.39,
             vjust = 1,
-            size = 4.5,
+            size = 5,
             lineheight = 0) +
   geom_text(mapping = aes(y = start,
                           label = medium_label,
                           color = label_color),
             vjust = -0.06,
-            nudge_x = -0.36,
+            nudge_x = -0.39,
             size = 4,
             lineheight = 0.2) +
   geom_text(mapping = aes(y = start,
@@ -201,16 +201,14 @@ year_bar <- ggplot(data = books_edit,
             color = font_color,
             vjust = -0.5) +
   scale_fill_manual(values = genre_pal) +
-  labs(title = "Most books I read were published in the last few years.",
-       x = "Year Published") +
+  labs(title = "I mostly read books published in the last few years.") +
   scale_y_continuous(limits = c(0, 25)) +
   coord_cartesian(expand = FALSE,
                   clip = "off") +
   theme(axis.line = element_blank(),
         axis.ticks = element_blank(),
         axis.text.y = element_blank(),
-        axis.title.y = element_blank(),
-        axis.title = element_text(size = 14, color = font_color),
+        axis.title = element_blank(),
         axis.text = element_text(size = 12, color = font_color),
         plot.margin = margin(t = 20, r = 20, b = 20, l = 20),
         plot.title = element_markdown(size = 16, color = font_color, family = font))
