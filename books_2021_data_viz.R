@@ -254,7 +254,7 @@ book_stack +  right_side +
   plot_layout(ncol = 2,
               widths = c(3, 1)) +
   plot_annotation(title = "<b>A Year of Reading</b>",
-                  subtitle = "In 2021, I read 75 books totalling 24,417 pages. 79% were written by female authors.<br>
+                  subtitle = "In 2021, I read 75 books totaling 24,417 pages. 79% were written by female authors.<br>
                   Each book's height in the stack represents its length.",
                   caption = "<b>Data & Design:</b> Jenn Schilling")
 
