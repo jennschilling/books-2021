@@ -13,7 +13,8 @@ library(scales)
 library(patchwork)
 library(forcats)
 library(ggfittext)
-
+library(magick)
+library(grid)
 
 #### Data ####
 
@@ -263,4 +264,94 @@ ggsave("books_2021.png",
        plot = last_plot(),
        device = "png",
        width = 24,
+       height = 12)
+
+
+#### Instagram ####
+
+# Title
+
+insta_title <- ggplot() +
+  annotate("text",
+           x = -12,
+           y = 2,
+           label = "A Year of Reading",
+           family = title_font,
+           color = font_color,
+           fontface = "bold",
+           size = 12,
+           hjust = 0)  +
+  annotate("text",
+           x = -12,
+           y = 1.5,
+           label = "In 2021, I read 75 books totaling 24,417 pages.\n79% were written by female authors.\nEach book's height in the stack represents its length.",
+           family = title_font,
+           color = font_color,
+           size = 10,
+           hjust = 0)  +
+  annotate("text",
+           x = -3,
+           y = 1,
+           label = "Swipe for a closer look",
+           family = font,
+           color = font_color,
+           size = 7,
+           hjust = -1,
+           vjust = 0) +
+  annotate("curve",
+           x = 5.5, xend = 7,
+           y = 1.032, yend = 1.032,
+           curvature = 0, arrow = arrow(type = "closed"),
+           color = font_color, size = 2) + 
+  scale_x_continuous(limits = c(-12, 8),
+                     expand = c(0, 0)) +
+  scale_y_continuous(limits = c(-1, 2.5)) +
+  coord_cartesian(clip = "off") +
+  labs(caption = "<b>Data & Design:</b> Jenn Schilling") +
+  theme(axis.text= element_blank(),
+        axis.line = element_blank(),
+        axis.title = element_blank(),
+        axis.ticks = element_blank())
+
+ggsave("books_2021_title.png",
+       plot = insta_title + 
+         inset_element(book_stack, left = 0, bottom = 0, right = 1, top = 0.5),
+       width = 13,
+       height = 13)
+
+# Legends
+legends <- right_side <- wrap_elements(full = symbol_legend) +
+  wrap_elements(full = legend_bar) +
+  plot_layout(ncol = 1,
+              heights = c(1, 3))
+
+ggsave("books_2021_legend.png",
+       plot = legends + 
+         labs(caption = "<br><br><b>Data & Design:</b> Jenn Schilling") +
+         theme(plot.caption = element_markdown(size = 10, 
+                                               color = font_color, 
+                                               hjust = 1)),
+       width = 10,
+       height = 10)
+
+# Jan - June
+ggsave("books_2021_jan_jun.png",
+       plot = book_stack + 
+         scale_x_discrete(limits = c("January", "February", "March", "April", "May", "June")) + 
+         labs(caption = "<br><br><b>Data & Design:</b> Jenn Schilling") +
+         theme(plot.caption = element_markdown(size = 10, 
+                                               color = font_color, 
+                                               hjust = 1)),
+       width = 12,
+       height = 12)
+
+# July - Dec
+ggsave("books_2021_jul_dec.png",
+       plot = book_stack + 
+         scale_x_discrete(limits = c("July", "August", "September", "October", "November", "December")) + 
+         labs(caption = "<br><br><b>Data & Design:</b> Jenn Schilling") +
+         theme(plot.caption = element_markdown(size = 10, 
+                                               color = font_color, 
+                                               hjust = 1)),
+       width = 12,
        height = 12)
