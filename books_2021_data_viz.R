@@ -195,15 +195,17 @@ legend_bar <- ggplot(data = books_edit,
 year_bar <- ggplot(data = books_edit,
        mapping = aes(x = factor(year_published))) +
   geom_bar() +
-  geom_bar_text(contrast = TRUE,
-                stat = "count", 
-                aes(label = ..count..),
-                family = font) +
+  geom_text(stat = "count", 
+            aes(label = ..count..),
+            family = font,
+            color = font_color,
+            vjust = -0.5) +
   scale_fill_manual(values = genre_pal) +
-  coord_cartesian(expand = FALSE,
-                  clip = "off") +
   labs(title = "Most books I read were published in the last few years.",
        x = "Year Published") +
+  scale_y_continuous(limits = c(0, 25)) +
+  coord_cartesian(expand = FALSE,
+                  clip = "off") +
   theme(axis.line = element_blank(),
         axis.ticks = element_blank(),
         axis.text.y = element_blank(),
@@ -236,24 +238,23 @@ symbol_legend <- ggplot(data = symbol_legend_data,
 
 # Put it together
 
-right_side <- symbol_legend / legend_bar +
+right_side <- wrap_elements(full = symbol_legend) +
+  wrap_elements(full = legend_bar) +
+  wrap_elements(full = year_bar) +
   plot_layout(ncol = 1,
-              heights = c(1, 2))
-
+              heights = c(1, 2, 1))
 
 book_stack +  right_side +
   plot_layout(ncol = 2,
-              widths = c(3.5, 1)) +
+              widths = c(3, 1)) +
   plot_annotation(title = "<b>A Year of Reading</b>",
                   subtitle = "In 2021, I read 75 books and 24,417 total pages. 79% of the books I read were written by female authors.<br>
                   Each book I read is stacked based on the month I read it. The height denotes the number of pages.",
-                  caption = "<b>Data & Design:</b> Jenn Schilling") &
-  theme(plot.margin = margin(t = 20, r = 20, b = 20, l = 20))
-
+                  caption = "<b>Data & Design:</b> Jenn Schilling")
 
 # Save
 ggsave("books_2021.png",
        plot = last_plot(),
        device = "png",
-       width = 22,
+       width = 24,
        height = 12)
